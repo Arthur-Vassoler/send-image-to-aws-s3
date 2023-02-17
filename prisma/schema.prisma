@@ -14,7 +14,4 @@ model photo {
   id String @id @default(uuid())
   name String @unique
   directory String
-  type String
-  originalSize Float
-  compressedSize Float
 }
