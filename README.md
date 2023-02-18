@@ -65,13 +65,13 @@ Para fazer o upload de uma imagem para o S3, basta fazer um Request POST em:
 
 Após a conclusão do upload, a imagem estará disponível no bucket configurado.
 
-O caminho das photos são salvas na tabela 'photo' do Postgres configurado no Docker.
+O caminho das fotos são salvas na tabela 'photo' do Postgres configurado no Docker.
 
-Para deletar uma photo faça um request POST em:
+Para deletar uma foto faça um request POST em:
 
     /send/:filename
 
-Assim a photo é deletada no S3 e no Banco de Dados.
+Assim a foto é deletada no S3 e no Banco de Dados.
 
 ---
 
@@ -85,4 +85,3 @@ a.h.vassoler@gmail.com
 ## Author
 
 - [@arthurvassoler](https://www.github.com/Arthur-Vassoler)
-
